@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrimeActivity">
+
+
+
+    <TextView
+        style="@style/TextView"
+        android:text="TITLE" />
+
+    <EditText
+        android:id="@+id/TitleCrime"
+        style="@style/TitleCrime"
+        android:text="Enter a title for the crime" />
+
+    <TextView
+        android:id="@+id/DetailsCrime"
+        style="@style/Details"
+        android:text="DETAILS" />
+
+    <Button style="@style/Button" />
+
+    <CheckBox style="@style/CheckBox" />
+
+    <TextView
+        style="@style/TextCheckBox"
+        android:text="Enter a title for the crime" />
+
+
+</LinearLayout>
